@@ -1,0 +1,32 @@
+.container-scrollbar {
+    position: absolute;
+    display: block;
+    height: 10px;
+    width: 100%;
+    background-color: rgb(35, 165, 182);
+    left: 0px;
+    top: 0px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+@keyframes container-scrollbar {
+    0% {
+        width: 0%;
+    }
+    
+    25% {
+        width: 25%;
+    }
+
+    50% {
+        width: 50%;
+    }
+    
+    75% {
+        width: 75%;
+    }
+    
+    100% {
+        width: 100%;
+    }
+}
